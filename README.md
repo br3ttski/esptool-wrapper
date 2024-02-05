@@ -1,5 +1,6 @@
 # esptool-wrapper
-Simple (easily audited) PowerShell wrapper for the **esptool.py** Espressif Python utility
+Simple (easily audited) PowerShell wrapper for Espressif's **esptool.py**
+
 ![esptool_wrapper_choose_comport](https://github.com/br3ttski/esptool-wrapper/assets/4618991/a42443c0-f1e0-4ad1-8de2-70519e5e36c8)
 ![esptool_wrapper_menu](https://github.com/br3ttski/esptool-wrapper/assets/4618991/e92eb3d3-10ae-47e7-b0c6-f45b6948148e)
 
