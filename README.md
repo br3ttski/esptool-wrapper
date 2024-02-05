@@ -6,7 +6,7 @@ Run the script and select from the com ports found:
 ![esptool_wrapper_choose_comport](https://github.com/br3ttski/esptool-wrapper/assets/4618991/a42443c0-f1e0-4ad1-8de2-70519e5e36c8)
 
 Then navigate the menu to instruct esptool.py what to do:
-(esptool.py still interacts with the microcontroller)
+(esptool.py still interacts with your ESP32 microcontroller)
 
 ![esptool_wrapper_menu](https://github.com/br3ttski/esptool-wrapper/assets/4618991/e92eb3d3-10ae-47e7-b0c6-f45b6948148e)
 
