@@ -16,13 +16,15 @@ such as https://github.com/Grovkillen/ESP_Easy_Flasher
 Git Clone or download the esptool_wrapper.ps1 script to your PC, ensuring that the two
 dependencies mentioned above have already been met. You should already be able to call
 both the dependencies from a command line and see their help:
-
-> **esptool.py**
+```
+> esptool.py
 esptool.py v4.7.0
 usage: esptool [-h] <etc>
-> **plink**
-Plink: command-line connection utility
-Release 0.80
-Usage: plink [options] [user@]host [command] <etc>
-
+```
+```
+> plink
+ Plink: command-line connection utility
+ Release 0.80
+ Usage: plink [options] [user@]host [command] <etc>
+```
 Note that esptool.py has a dependency on Python being installed obviously.
