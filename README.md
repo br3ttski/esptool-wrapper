@@ -14,19 +14,19 @@ Then navigate the menu to instruct esptool.py what to do:
 
 ## Instructions
 
-It has two dependencies on utilities that must already be installed on your PC
-1. Espressif ESPtool.py - https://github.com/espressif/esptool
-Git clone and run setup.py to install esptool.py into Environment:Path
-2. Putty PLink - https://www.chiark.greenend.org.uk/%7Esgtatham/putty/latest.html
-Download the MSI installer of Putty and it will install putty link (PLink) too.
-My test environment is a Windows 10 PC, your mileage may vary on other OSes.
-This script is intended to make using esptool more pleasant, not handling all the
-possible things it does. There are other tools if you want more features or a GUI
-such as https://github.com/Grovkillen/ESP_Easy_Flasher
+This script depends on two utilities that must already be installed on your PC; esptool and plink.
 
-Git Clone or download the esptool_wrapper.ps1 script to your PC, ensuring that the two
-dependencies mentioned above have already been met. You should already be able to call
-both the dependencies from a command line and see their help:
+* Espressif ESPtool.py - https://github.com/espressif/esptool
+Git clone and run setup.py to install esptool.py into Environment:Path
+Obviously esptool.py has a dependency on Python being installed first.
+
+* Putty PLink - https://www.chiark.greenend.org.uk/%7Esgtatham/putty/latest.html
+Download the MSI installer of Putty and it will install putty link (PLink) too.
+
+This script is intended to make using esptool more pleasant, but doesn't incorporate all the things esptool does.
+There are other tools if you want more features or a GUI such as https://github.com/Grovkillen/ESP_Easy_Flasher
+
+You should already be able to call both the dependencies from a command line and see their help:
 
 ```
 > esptool.py
@@ -39,7 +39,8 @@ usage: esptool [-h] <etc>
  Release 0.80
  Usage: plink [options] [user@]host [command] <etc>
 ```
-Obviously esptool.py has a dependency on Python being installed.
+
+Now that you have esptool (mandatory) and plink (optional) in place, download or git clone the esptool_wrapper.ps1 script to your PC. 
 
 Before running, edit the esptool_wrapper.ps1 in any text editor and change the path
 to the directory where you want to upload / download your ESP32 flash ROMs, for eg:
